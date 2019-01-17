@@ -3,8 +3,7 @@
     "description": "EasyNav allows you to create screen to screen navigation – using the keyboard – by laying out screens in the Design view.",
     "author": "Struan Fraser",
     "require": "e = require EasyNav",
-    "install": "EasyNav.coffee",
+    "install": ["EasyNav.coffee", "Keyboard.coffee"],
     "example": "example.coffee",
-    "thumb": "thumb.png",
-    "dependencies": "deps/Keyboard.coffee"
+    "thumb": "thumb.png"
 }
