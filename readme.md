@@ -1,8 +1,4 @@
 # EasyNav for Framer Studio
-<a href='https://open.framermodules.com/EasyNav-with-Keyboard'>
-    <img alt='Install with Framer Modules'
-    src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' />
-</a>
 
 EasyNav is a Framer module that generates keyboard navigation based on the position of frames in the Design view of Framer.
 
