@@ -207,7 +207,7 @@
 
         ],
         "fillColor" : "rgba(56, 56, 56, 1.00)",
-        "fillEnabled" : true,
+        "fillEnabled" : false,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -343,7 +343,7 @@
 
         ],
         "fillColor" : "rgba(56, 56, 56, 1.00)",
-        "fillEnabled" : true,
+        "fillEnabled" : false,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -444,7 +444,7 @@
                   "LETTERSPACING:0",
                   "LINEHEIGHT:1.2",
                   "SIZE:72",
-                  "FONT:BodoniSvtyTwoITCTT-Book"
+                  "FONT:Futura-Medium"
                 ]
               },
               "depth" : 0,
@@ -480,7 +480,7 @@
                 {
                   "length" : 112,
                   "offset" : 0,
-                  "style" : "FONT:BodoniSvtyTwoITCTT-Book"
+                  "style" : "FONT:Futura-Medium"
                 },
                 {
                   "length" : 13,
@@ -499,7 +499,7 @@
                   "LETTERSPACING:0",
                   "LINEHEIGHT:1.2",
                   "SIZE:72",
-                  "FONT:BodoniSvtyTwoITCTT-Book"
+                  "FONT:Futura-Medium"
                 ]
               },
               "depth" : 0,
@@ -520,7 +520,7 @@
                   "LETTERSPACING:0",
                   "LINEHEIGHT:1.2",
                   "SIZE:72",
-                  "FONT:BodoniSvtyTwoITCTT-Book"
+                  "FONT:Futura-Medium"
                 ]
               },
               "depth" : 0,
@@ -551,7 +551,7 @@
                 {
                   "length" : 34,
                   "offset" : 0,
-                  "style" : "FONT:BodoniSvtyTwoITCTT-Book"
+                  "style" : "FONT:Futura-Medium"
                 }
               ],
               "key" : "8d3cg",
@@ -611,7 +611,7 @@
         "targetName" : null,
         "visible" : true,
         "width" : 24,
-        "x" : -1345,
+        "x" : -1604,
         "y" : -1267
       },
       {
@@ -656,7 +656,7 @@
         "targetName" : null,
         "visible" : true,
         "width" : 23,
-        "x" : -1345,
+        "x" : -1604,
         "y" : -1013
       },
       {
@@ -701,7 +701,7 @@
         "targetName" : null,
         "visible" : true,
         "width" : 23,
-        "x" : -1345,
+        "x" : -1604,
         "y" : -760
       },
       {
@@ -1311,7 +1311,7 @@
 
         ],
         "fillColor" : "hsl(0, 0%, 22%)",
-        "fillEnabled" : true,
+        "fillEnabled" : false,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -1855,7 +1855,7 @@
 
         ],
         "fillColor" : "hsl(0, 0%, 22%)",
-        "fillEnabled" : true,
+        "fillEnabled" : false,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -2399,7 +2399,7 @@
 
         ],
         "fillColor" : "hsl(0, 0%, 22%)",
-        "fillEnabled" : true,
+        "fillEnabled" : false,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -2943,7 +2943,7 @@
 
         ],
         "fillColor" : "hsl(0, 0%, 22%)",
-        "fillEnabled" : true,
+        "fillEnabled" : false,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -3538,7 +3538,7 @@
 
         ],
         "fillColor" : "hsl(0, 0%, 22%)",
-        "fillEnabled" : true,
+        "fillEnabled" : false,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -4082,7 +4082,7 @@
 
         ],
         "fillColor" : "hsl(0, 0%, 22%)",
-        "fillEnabled" : true,
+        "fillEnabled" : false,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -4626,7 +4626,7 @@
 
         ],
         "fillColor" : "hsl(0, 0%, 22%)",
-        "fillEnabled" : true,
+        "fillEnabled" : false,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -4703,7 +4703,7 @@
         "id" : "sauNqmc1g",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : -1273,
+        "left" : -1532,
         "locked" : false,
         "name" : ".",
         "opacity" : 1,
@@ -4727,7 +4727,7 @@
                   "LETTERSPACING:0",
                   "LINEHEIGHT:1.2",
                   "SIZE:72",
-                  "FONT:BodoniSvtyTwoITCTT-Book"
+                  "FONT:Futura-Medium"
                 ]
               },
               "depth" : 0,
@@ -4758,7 +4758,7 @@
                 {
                   "length" : 74,
                   "offset" : 0,
-                  "style" : "FONT:BodoniSvtyTwoITCTT-Book"
+                  "style" : "FONT:Futura-Medium"
                 }
               ],
               "key" : "dm0av",
@@ -4767,13 +4767,13 @@
             }
           ],
           "cached" : {
-            "html" : "<span data-offset-key=\"dm0av-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;BodoniSvtyTwoITCTT-Book&quot;, &quot;Bodoni 72&quot;, serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:72px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Any frame with the same Y position will be added to horizontal navigation.<\/span><\/span>",
+            "html" : "<span data-offset-key=\"dm0av-0-0\" style=\"tab-size:4;font-weight:500;font-family:&quot;Futura-Medium&quot;, &quot;Futura&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:72px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Any frame with the same Y position will be added to horizontal navigation.<\/span><\/span>",
             "os" : "10_14",
             "size" : {
               "height" : 172,
-              "width" : 1145
+              "width" : 1286
             },
-            "width" : 1144
+            "width" : 1285
           },
           "entityMap" : {
 
@@ -4782,7 +4782,7 @@
         "targetName" : null,
         "top" : -1043,
         "visible" : true,
-        "width" : 1144,
+        "width" : 1285,
         "widthFactor" : null
       },
       {
@@ -4814,7 +4814,7 @@
         "id" : "ERhsOOR0u",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : -1273,
+        "left" : -1532,
         "locked" : false,
         "name" : ".",
         "opacity" : 1,
@@ -4838,7 +4838,7 @@
                   "LETTERSPACING:0",
                   "LINEHEIGHT:1.2",
                   "SIZE:72",
-                  "FONT:BodoniSvtyTwoITCTT-Book"
+                  "FONT:Futura-Medium"
                 ]
               },
               "depth" : 0,
@@ -4874,7 +4874,7 @@
                 {
                   "length" : 51,
                   "offset" : 0,
-                  "style" : "FONT:BodoniSvtyTwoITCTT-Book"
+                  "style" : "FONT:Futura-Medium"
                 },
                 {
                   "length" : 5,
@@ -4894,7 +4894,7 @@
         "targetName" : null,
         "top" : -1295,
         "visible" : true,
-        "width" : 1144,
+        "width" : 1285,
         "widthFactor" : null
       },
       {
@@ -4926,7 +4926,7 @@
         "id" : "FDgw2pJL7",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : -1273,
+        "left" : -1532,
         "locked" : false,
         "name" : ".",
         "opacity" : 1,
@@ -4950,7 +4950,7 @@
                   "LETTERSPACING:0",
                   "LINEHEIGHT:1.2",
                   "SIZE:72",
-                  "FONT:BodoniSvtyTwoITCTT-Book"
+                  "FONT:Futura-Medium"
                 ]
               },
               "depth" : 0,
@@ -4981,7 +4981,7 @@
                 {
                   "length" : 72,
                   "offset" : 0,
-                  "style" : "FONT:BodoniSvtyTwoITCTT-Book"
+                  "style" : "FONT:Futura-Medium"
                 }
               ],
               "key" : "dm0av",
@@ -4990,13 +4990,13 @@
             }
           ],
           "cached" : {
-            "html" : "<span data-offset-key=\"dm0av-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;BodoniSvtyTwoITCTT-Book&quot;, &quot;Bodoni 72&quot;, serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:72px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Any frame with the same X position will be added to vertical navigation.<\/span><\/span>",
+            "html" : "<span data-offset-key=\"dm0av-0-0\" style=\"tab-size:4;font-weight:500;font-family:&quot;Futura-Medium&quot;, &quot;Futura&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:72px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Any frame with the same X position will be added to vertical navigation.<\/span><\/span>",
             "os" : "10_14",
             "size" : {
               "height" : 172,
-              "width" : 1145
+              "width" : 1305
             },
-            "width" : 1144
+            "width" : 1304
           },
           "entityMap" : {
 
@@ -5005,7 +5005,7 @@
         "targetName" : null,
         "top" : -791,
         "visible" : true,
-        "width" : 1144,
+        "width" : 1285,
         "widthFactor" : null
       },
       {
@@ -5019,8 +5019,8 @@
         "bottom" : null,
         "brightness" : 100,
         "brightnessEnabled" : 0,
-        "centerAnchorX" : 0.33437499999999998,
-        "centerAnchorY" : -0.23402777777777778,
+        "centerAnchorX" : 0.31171874999999999,
+        "centerAnchorY" : -0.23680555555555555,
         "constraintsLocked" : false,
         "contrast" : 100,
         "contrastEnabled" : 0,
@@ -5037,7 +5037,7 @@
         "id" : "pXqpM2Oqj",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : -1385,
+        "left" : -1644,
         "locked" : false,
         "name" : null,
         "opacity" : 1,

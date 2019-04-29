@@ -45,6 +45,7 @@ myLayer.leftEvent = ->
 If you'd like to know more or you have any particular feature requests, get in touch – [@struanfraser](http://twitter.com/struanfraser).
 
 ## Other useful projects for TV
+* [TVKit - Framer Modules for TV Prototyping](https://github.com/Skinny-Malinky/TV-Kit-for-Framer-Classic)
 * [Keyboard Input for Framer](https://github.com/Skinny-Malinky/Keyboard-Input-for-Framer) 
 * [FocusEngine](https://github.com/bpxl-labs/FocusEngine)
 * [RemoteLayer](https://github.com/bpxl-labs/RemoteLayer)
