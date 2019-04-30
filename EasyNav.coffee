@@ -1,25 +1,26 @@
 k = require "Keyboard"
 
-isSVG = (layer) ->
-	if layer instanceof SVGPath == true
+isRootLayer = (layer) ->
+	if layer.parent == null
 		return true
-	if layer instanceof SVGLayer == true
-		return true
-	return false
+	else
+		return false
 
-currentLayer = ""
+exports.currentLayer = ""
 
-exports.setCurrent = (tempFrame) ->
+exports.setCurrent = ( tempFrame ) ->
+	exports.currentLayer.visible = false
 	tempFrame.x = 0
 	tempFrame.y = 0
 	tempFrame.bringToFront()
-	currentLayer = tempFrame
+	tempFrame.visible = true
+	exports.currentLayer = tempFrame
 
 setAdjacentLayers = (layer) =>
 	xLayers = []
 	yLayers = []
 	for child, i in Framer.CurrentContext.layers
-		if isSVG(child) == false
+		if isRootLayer(child) == true
 			if child.x == layer.x
 				yLayers.push(child)
 			if child.y == layer.y
@@ -34,37 +35,40 @@ setAdjacentLayers = (layer) =>
 		if layer == child
             if xLayers[i-1]?
                 leftLayer = xLayers[i-1]
-                child.leftEvent = => @.setCurrent(leftLayer)
+                child.leftEvent = => @.setCurrent(leftLayer, child)
             if xLayers[i+1]?
                 rightLayer = xLayers[i+1] 
-                child.rightEvent = => @.setCurrent(rightLayer)
+                child.rightEvent = => @.setCurrent(rightLayer, child)
 	for child, i in yLayers
 		if layer == child
             if yLayers[i-1]?
                 upLayer = yLayers[i-1]
-                child.upEvent = => @.setCurrent(upLayer)
+                child.upEvent = => @.setCurrent(upLayer, child)
             if yLayers[i+1]?
                 downLayer = yLayers[i+1]
-                child.downEvent = => @.setCurrent(downLayer)
+                child.downEvent = => @.setCurrent(downLayer, child)
 
 for child, i in Framer.CurrentContext.layers
-	if isSVG(child) == false
+	if isRootLayer(child) == true
 		setAdjacentLayers(child)
+		child.visible = false
 
-@.setCurrent(first)
+if first?
+	@.setCurrent( first )
+else throw "You need a layer targeted as 'first'"
 
 moveLeft = ->
-	if currentLayer.leftEvent? then currentLayer.leftEvent()
+	if exports.currentLayer.leftEvent? then exports.currentLayer.leftEvent()
 moveRight = ->
-	if currentLayer.rightEvent? then currentLayer.rightEvent()
+	if exports.currentLayer.rightEvent? then exports.currentLayer.rightEvent()
 moveUp = ->
-	if currentLayer.upEvent? then currentLayer.upEvent()
+	if exports.currentLayer.upEvent? then exports.currentLayer.upEvent()
 moveDown = ->
-	if currentLayer.downEvent? then currentLayer.downEvent()
+	if exports.currentLayer.downEvent? then exports.currentLayer.downEvent()
 pressOK = ->
-	if currentLayer.okEvent? then currentLayer.okEvent()
+	if exports.currentLayer.okEvent? then exports.currentLayer.okEvent()
 pressBack = ->
-	if currentLayer.backEvent? then currentLayer.backEvent()
+	if exports.currentLayer.backEvent? then exports.currentLayer.backEvent()
 
 k.onKey(k.left, moveLeft)
 k.onKey(k.right, moveRight)
