@@ -1,13 +1,10 @@
 k = require "Keyboard"
 
-isSVG = (layer) ->
-	if layer instanceof SVGPath == true
+isRootLayer = (layer) ->
+	if layer.parent == null
 		return true
-	if layer instanceof SVGLayer == true
-		return true
-	if layer instanceof TextLayer == true
-		return true
-	return false
+	else
+		return false
 
 exports.currentLayer = ""
 
@@ -23,7 +20,7 @@ setAdjacentLayers = (layer) =>
 	xLayers = []
 	yLayers = []
 	for child, i in Framer.CurrentContext.layers
-		if isSVG(child) == false
+		if isRootLayer(child) == true
 			if child.x == layer.x
 				yLayers.push(child)
 			if child.y == layer.y
@@ -52,7 +49,7 @@ setAdjacentLayers = (layer) =>
                 child.downEvent = => @.setCurrent(downLayer, child)
 
 for child, i in Framer.CurrentContext.layers
-	if isSVG(child) == false
+	if isRootLayer(child) == true
 		setAdjacentLayers(child)
 		child.visible = false
 
